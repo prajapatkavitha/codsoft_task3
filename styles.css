@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+  }
+  
+  .calculator-card {
+    background-color: #1e3a8a; /* Blue background for the card */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calculator {
+    width: 100%;
+  }
+  
+  .display {
+    background-color: white; /* White background for the display */
+    color: black; /* Black text in the display */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  #display {
+    width: 100%;
+    padding: 10px;
+    font-size: 2rem;
+    border: none;
+    background-color: white;
+    color: black;
+    text-align: right;
+    border-radius: 8px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding-top: 20px;
+  }
+  
+  .btn {
+    font-size: 1.5rem;
+    padding: 20px;
+    background-color: #4c6ef5; /* White buttons */
+    color: #e9ecf5; /* Blue text for the buttons */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #e76f51; /* Change background color on hover */
+  }
+  
+  .operator {
+    background-color: #4c6ef5; /* Light blue for operator buttons */
+    color: white; /* White text on operator buttons */
+  }
+  
+  .operator:hover {
+    background-color: #3a5bc9; /* Darker blue on hover */
+  }
+  
